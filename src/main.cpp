@@ -8,8 +8,6 @@
 
 LiquidCrystal_I2C LCD(0x27, 16, 2);
 
-#define ENDPOINT "https://ecse3038-lab5-tester.onrender.com/message"
-
 void spinner() {
     static int8_t counter = 0;
     const char* glyphs = "\xa1\xa5\xdb";
